@@ -1,0 +1,189 @@
+@import url('https://fonts.googleapis.com/css2?family=Bad+Script&family=Fira+Sans&family=Lato:ital,wght@0,300;0,900;1,400&family=Merriweather&family=Montserrat:wght@100&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Quicksand:wght@300&family=Raleway:wght@300&family=Roboto:ital,wght@0,100;0,300;0,400;0,700;1,500&family=Sriracha&display=swap');
+
+*{
+    font-family: 'Raleway', sans-serif;
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    width: 100%;
+}
+.navbar{
+    padding-top: 30px;
+    align-items: center;
+    display: flex;
+    gap: 60px;
+    padding-right: 50px;
+    text-decoration: none;
+    justify-content: space-evenly;
+}
+.navbar h3{
+    color: pink;
+    font-size: 25px;
+    padding-right: 50px;
+}
+ul{
+    display: flex;
+    gap: 100px;
+}
+.navbar a{
+    color:gray;
+    font-weight: 700;
+    text-decoration: none;
+    
+}
+a:hover{
+    color: black;
+    font-size: 15px;
+}
+.navbar li{
+    list-style: none;
+    justify-content: space-between;
+    
+}
+
+.section1{
+    margin-top: 50px;
+    margin-right: 100px;
+    margin-left: 70px;
+    display: flex;
+}
+
+.section1 .text{
+    width: 55%;
+    font-size:19.3px;
+    margin-top: 50px;
+}
+
+.section1 h2{
+    line-height: 1.5;
+    color: gray;
+}
+
+.section1 .image img{
+    height: 400px;
+}
+
+.emojis{
+   
+    margin-left: 70px;
+}
+.emojis i{
+    margin-top: 20px;
+    margin-left: 20px;
+    font-size: 50px;
+    justify-content: space-evenly;
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+.contact-btns{
+    margin-left: 70px;
+    
+}
+.contact-btns button{
+    cursor: pointer;
+    width: 210px;
+    height: 50px;
+    margin-top: 30px;
+    gap: 20px;
+    margin-right: 50px;
+    font-size: 20px;
+    border: 2px solid blueviolet;
+    border-radius: 10px;
+    background-color: blueviolet;
+}
+
+
+/* about me section */
+
+.text h4{
+    color: gray;
+
+}
+.text ul{
+    font-size: 60px;
+}
+.text h5{
+    margin-top: 30px;
+    color: gray;
+}
+.text h5 i{
+    color: rgb(184, 184, 40);
+}
+
+.rangeone{
+    width: 400px;
+    line-height: 2;
+    background-color: purple;
+    
+}
+.range1{
+    list-style: none;
+    line-height: 2;
+    
+}
+
+.Proficiency1{
+    color: black;
+}
+
+.open-source{
+    margin-top: 50px;
+    margin-left: 70px;
+}
+.card-section{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 0.5vh;
+    
+}
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    max-width:1200px ;
+    flex-wrap: wrap;
+    padding:5px 0;
+
+}
+.container .card{
+    position: relative;
+    width: 620px;
+    height: 200px;
+    box-shadow: inset 5px 5px 5px rgba(0,0,0,0.05)
+                ,inset -5px -5px 5px rgba(255,255,255,0.5)
+                ,inset -5px -5px 5px rgba(0,0,0,0.05)
+                ,inset -5px -5px 5px rgba(255,255,255,0.5);
+    border-radius: 15px;
+    margin: 30px;
+    cursor: pointer;
+}
+
+.container .card .box{
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    right: 20px;
+    bottom: 20px;
+    background:#ebf5fc;
+    box-shadow: 0 10px 20px rgba(0,0,0,0.1);
+    border-radius: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.certificates{
+    margin-top: 30px;
+    margin-left: 70px;
+    color: gray;
+}
+
+.internshala{
+    height: 48px;
+    margin-bottom: 20px;
+}
